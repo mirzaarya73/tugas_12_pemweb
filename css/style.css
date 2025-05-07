@@ -1,0 +1,111 @@
+/* Umum */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container utama */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul halaman */
+h1 {
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Subjudul */
+h2 {
+    font-size: 24px;
+    color: #444;
+    margin-top: 30px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Label dan Input */
+label {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.input,
+textarea,
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.input:focus,
+textarea:focus,
+input:focus {
+    border-color: #5e72e4;
+    background-color: #fff;
+    outline: none;
+}
+
+/* Tombol */
+button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #5e72e4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #324cdd;
+}
+
+/* Kotak output (read-only) */
+.input-readonly {
+    background-color: #f0f4f8;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Bar judul & subheading */
+.title-bar {
+    background: #5e72e4;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subheading {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
